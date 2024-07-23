@@ -26,12 +26,15 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<IRepository<Photo>, PhotoRepository>()
     .AddTransient<DataLoader>();
 
+<<<<<<< HEAD
 // Настройка GraphQL
 builder.Services
     .AddGraphQLServer()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>();
 
+=======
+>>>>>>> 20ed2078e850db47ef1c99f60257656f4fac1b82
 var app = builder.Build();
 
 // Инициализация данных
