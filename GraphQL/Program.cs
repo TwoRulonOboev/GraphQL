@@ -1,15 +1,44 @@
+﻿using HotChocolate.AspNetCore;
+using HotChocolate.AspNetCore.Playground;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using GraphQL.Data;
+using GraphQL.Model;
+using GraphQL.Data.GraphQL.Data;
+using GraphQL.Data.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Добавление служб в контейнер
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Настройка конфигурации
+IConfiguration config = new ConfigurationBuilder()
+    .AddJsonFile("./config.json")
+    .Build();
+
+builder.Services.AddSingleton<HttpClient>()
+    .AddSingleton(config)
+    .AddTransient<IDbContextFactory, DbContextFactory>()
+    .AddTransient<IRepository<Album>, AlbumRepository>()
+    .AddTransient<IRepository<Photo>, PhotoRepository>()
+    .AddTransient<DataLoader>();
+
+// Настройка GraphQL
+builder.Services
+    .AddGraphQLServer()
+    .AddQueryType<Query>()
+    .AddMutationType<Mutation>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Инициализация данных
+DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
+await dataLoader.LoadDataAsync();
+
+// Настройка конвейера HTTP-запросов
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,9 +46,15 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
+
+// Настройка конечной точки GraphQL и GraphiQL
+app.MapGraphQL("/api/graphql");
+app.UsePlayground(new PlaygroundOptions
+{
+    Path = "/api/graphiql",
+    QueryPath = "/api/graphql"
+});
 
 app.Run();
