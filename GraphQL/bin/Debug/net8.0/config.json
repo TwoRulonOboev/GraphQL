@@ -1,0 +1,7 @@
+{
+  "PostgresConnectionString": "Server=127.0.0.1;Port=5432;Database=GraphQLDB;UserId=postgres;Password=postgres;",
+  "DownloadUrls": {
+    "Albums": "https://jsonplaceholder.typicode.com/albums",
+    "Photos": "https://jsonplaceholder.typicode.com/photos"
+  }
+}

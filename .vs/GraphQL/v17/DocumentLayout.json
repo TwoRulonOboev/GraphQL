@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\",
+  "WorkspaceRootPath": "D:\\practice\\GraphQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\pars\\model\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\model\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\pars\\pars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\pars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\pars\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\pars\\model\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\model\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\graphql.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\graphql.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pars.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Pars.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Pars\\Pars.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Pars.cs",
-              "RelativeToolTip": "GraphQL\\Pars\\Pars.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:20:11.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Pars\\Model\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\MyDbContext.cs",
-              "RelativeToolTip": "GraphQL\\Pars\\Model\\MyDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:14:00.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\Photo.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Pars\\Model\\Photo.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\Photo.cs",
-              "RelativeToolTip": "GraphQL\\Pars\\Model\\Photo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:13:43.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\Album.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Pars\\Model\\Album.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Pars\\Model\\Album.cs",
-              "RelativeToolTip": "GraphQL\\Pars\\Model\\Album.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:12:51.731Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Program.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeDocumentMoniker": "GraphQL\\Program.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Program.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeToolTip": "GraphQL\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T09:10:22.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GraphQL.http",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\GraphQL.http",
-              "RelativeDocumentMoniker": "GraphQL\\GraphQL.http",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\GraphQL.http",
-              "RelativeToolTip": "GraphQL\\GraphQL.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-07-23T09:10:19.574Z",
+              "DocumentIndex": 2,
+              "Title": "DataLoader.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Pars\\DataLoader.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
+              "RelativeToolTip": "GraphQL\\Pars\\DataLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:09:02.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Data\\Repository\\PhotoRepository.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\PhotoRepository.cs",
+              "RelativeToolTip": "GraphQL\\Data\\Repository\\PhotoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:06:08.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Data\\Repository\\AlbumRepository.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\AlbumRepository.cs",
+              "RelativeToolTip": "GraphQL\\Data\\Repository\\AlbumRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:01:52.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Model\\Album.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Model\\Album.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Model\\Album.cs",
+              "RelativeToolTip": "GraphQL\\Model\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T09:12:51.731Z",
               "EditorCaption": ""
             }
           ]
