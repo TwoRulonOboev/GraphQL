@@ -22,7 +22,6 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<IRepository<Photo>, PhotoRepository>()
     .AddTransient<DataLoader>();
 
-
 var app = builder.Build();
 
 DataLoader dataLoader = app.Services.GetService<DataLoader>()!;

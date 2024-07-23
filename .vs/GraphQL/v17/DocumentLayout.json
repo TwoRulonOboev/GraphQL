@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\practice\\GraphQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\graphql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\graphql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\repository\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\repository\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,37 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GraphQL",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
+              "RelativeDocumentMoniker": "GraphQL\\GraphQL.csproj",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
+              "RelativeToolTip": "GraphQL\\GraphQL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-23T12:10:38.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeDocumentMoniker": "GraphQL\\Program.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeToolTip": "GraphQL\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:10:22.411Z",
+              "WhenOpened": "2024-07-23T11:50:12.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataLoader.cs",
-              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Pars\\DataLoader.cs",
-              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
-              "RelativeToolTip": "GraphQL\\Pars\\DataLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T11:09:02.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PhotoRepository.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\PhotoRepository.cs",
               "RelativeDocumentMoniker": "GraphQL\\Data\\Repository\\PhotoRepository.cs",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AlbumRepository.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\AlbumRepository.cs",
               "RelativeDocumentMoniker": "GraphQL\\Data\\Repository\\AlbumRepository.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\AlbumRepository.cs",
               "RelativeToolTip": "GraphQL\\Data\\Repository\\AlbumRepository.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAswEQAAAAAAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAowDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T11:01:52.255Z",
               "EditorCaption": ""
