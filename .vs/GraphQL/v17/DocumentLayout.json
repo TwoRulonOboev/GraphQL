@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\",
+  "WorkspaceRootPath": "D:\\practice\\GraphQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|c:\\users\\innovikov\\desktop\\forgit\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,15 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Program.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeDocumentMoniker": "GraphQL\\Program.cs",
-              "ToolTip": "C:\\Users\\innovikov\\Desktop\\forgit\\GraphQL\\GraphQL\\Program.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeToolTip": "GraphQL\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
