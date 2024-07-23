@@ -59,11 +59,17 @@ namespace GraphQL.Data.Repository
         }
 
 
-        public Album Get(int id)
+        public Album? Get(int id)
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Albums.SingleOrDefault(a => a.Id == id);
+                return context.Albums.Select(a => new Album
+                {
+                    Id      = a.Id,
+                    UserId  = a.UserId,
+                    Title   = a.Title,
+                    Photos  = a.Photos
+                }).SingleOrDefault(a => a.Id == id);
             }
         }
 
@@ -71,7 +77,13 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Albums.ToList();
+                return context.Albums.Select(a => new Album
+                {
+                    Id      = a.Id,
+                    UserId  = a.UserId,
+                    Title   = a.Title,
+                    Photos  = a.Photos
+                }).ToList();
             }
         }
 
@@ -79,15 +91,27 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Albums.Where(filter).ToList();
+                return context.Albums.Select(a => new Album
+                {
+                    Id      = a.Id,
+                    UserId  = a.UserId,
+                    Title   = a.Title,
+                    Photos  = a.Photos
+                }).Where(filter).ToList();
             }
         }
 
-        public async Task<Album> GetAsync(int id)
+        public async Task<Album?> GetAsync(int id)
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return await context.Albums.SingleOrDefaultAsync(a => a.Id == id);
+                return await context.Albums.Select(a => new Album
+                {
+                    Id      = a.Id,
+                    UserId  = a.UserId,
+                    Title   = a.Title,
+                    Photos  = a.Photos
+                }).SingleOrDefaultAsync(a => a.Id == id);
             }
         }
 
@@ -95,7 +119,13 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return await context.Albums.ToListAsync();
+                return await context.Albums.Select(a => new Album
+                {
+                    Id      = a.Id,
+                    UserId  = a.UserId,
+                    Title   = a.Title,
+                    Photos  = a.Photos
+                }).ToListAsync();
             }
         }
 
@@ -107,7 +137,7 @@ namespace GraphQL.Data.Repository
 
                 if (temp == null) return;
 
-                temp.Title = entity.Title;
+                temp.Title  = entity.Title;
                 temp.UserId = entity.UserId;
                 temp.Photos = entity.Photos;
 

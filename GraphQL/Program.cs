@@ -1,7 +1,5 @@
 ﻿using HotChocolate.AspNetCore;
 using HotChocolate.AspNetCore.Playground;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using GraphQL.Data;
 using GraphQL.Model;
 using GraphQL.Data.GraphQL.Data;
@@ -12,7 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Добавление служб в контейнер
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 // Настройка конфигурации
 IConfiguration config = new ConfigurationBuilder()
@@ -34,16 +31,9 @@ builder.Services
 
 var app = builder.Build();
 
-// Инициализация данных
-DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
-await dataLoader.LoadDataAsync();
-
-// Настройка конвейера HTTP-запросов
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//// Инициализация данных
+//DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
+//await dataLoader.LoadDataAsync();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

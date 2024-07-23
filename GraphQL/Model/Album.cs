@@ -6,6 +6,6 @@
         public int UserId { get; set; }
         public string Title { get; set; } = null!;
 
-        public ICollection<Photo> Photos { get; set; } = null!;
+        public virtual ICollection<Photo> Photos { get; set; } = new List<Photo>();
     }
 }

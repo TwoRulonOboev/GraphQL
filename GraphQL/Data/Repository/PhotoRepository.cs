@@ -1,5 +1,6 @@
 ﻿using GraphQL.Model;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace GraphQL.Data.Repository
 {
@@ -59,11 +60,19 @@ namespace GraphQL.Data.Repository
         }
 
 
-        public Photo Get(int id)
+        public Photo? Get(int id)
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Photos.SingleOrDefault(a => a.Id == id);
+                return context.Photos.Select(p => new Photo
+                {
+                    Id              = p.Id,
+                    AlbumId         = p.AlbumId,
+                    Title           = p.Title,
+                    Url             = p.Url,
+                    ThumbnailUrl    = p.ThumbnailUrl,
+                    Album           = p.Album
+                }).SingleOrDefault(a => a.Id == id);
             }
         }
 
@@ -71,7 +80,15 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Photos.ToList();
+                return context.Photos.Select(p => new Photo
+                {
+                    Id              = p.Id,
+                    AlbumId         = p.AlbumId,
+                    Title           = p.Title,
+                    Url             = p.Url,
+                    ThumbnailUrl    = p.ThumbnailUrl,
+                    Album           = p.Album
+                }).ToList();
             }
         }
 
@@ -79,15 +96,31 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return context.Photos.Where(filter).ToList();
+                return context.Photos.Select(p => new Photo
+                {
+                    Id              = p.Id,
+                    AlbumId         = p.AlbumId,
+                    Title           = p.Title,
+                    Url             = p.Url,
+                    ThumbnailUrl    = p.ThumbnailUrl,
+                    Album           = p.Album
+                }).Where(filter).ToList();
             }
         }
 
-        public async Task<Photo> GetAsync(int id)
+        public async Task<Photo?> GetAsync(int id)
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return await context.Photos.SingleOrDefaultAsync(a => a.Id == id);
+                return await context.Photos.Select(p => new Photo
+                {
+                    Id              = p.Id,
+                    AlbumId         = p.AlbumId,
+                    Title           = p.Title,
+                    Url             = p.Url,
+                    ThumbnailUrl    = p.ThumbnailUrl,
+                    Album           = p.Album
+                }).SingleOrDefaultAsync(a => a.Id == id);
             }
         }
 
@@ -95,7 +128,15 @@ namespace GraphQL.Data.Repository
         {
             using (MyDbContext context = _dbContextFactory.Create())
             {
-                return await context.Photos.ToListAsync();
+                return await context.Photos.Select(p => new Photo
+                {
+                    Id              = p.Id,
+                    AlbumId         = p.AlbumId,
+                    Title           = p.Title,
+                    Url             = p.Url,
+                    ThumbnailUrl    = p.ThumbnailUrl,
+                    Album           = p.Album
+                }).ToListAsync();
             }
         }
 

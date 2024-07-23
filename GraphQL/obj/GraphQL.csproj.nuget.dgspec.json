@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj": {}
+    "E:\\Projects\\work\\practice\\GraphQL\\GraphQL\\GraphQL.csproj": {}
   },
   "projects": {
-    "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj": {
+    "E:\\Projects\\work\\practice\\GraphQL\\GraphQL\\GraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
+        "projectUniqueName": "E:\\Projects\\work\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
         "projectName": "GraphQL",
-        "projectPath": "D:\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
-        "packagesPath": "C:\\Users\\ageorgiu\\.nuget\\packages\\",
-        "outputPath": "D:\\practice\\GraphQL\\GraphQL\\obj\\",
+        "projectPath": "E:\\Projects\\work\\practice\\GraphQL\\GraphQL\\GraphQL.csproj",
+        "packagesPath": "C:\\Users\\SystemX\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\work\\practice\\GraphQL\\GraphQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ageorgiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SystemX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,15 +54,11 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.7, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[8.0.4, )"
             },
             "System.Net.Http": {
               "target": "Package",
@@ -97,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
