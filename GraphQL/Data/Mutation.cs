@@ -1,5 +1,6 @@
 ﻿using GraphQL.Data.Repository;
 using GraphQL.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace GraphQL.Data
 {
@@ -53,5 +54,4 @@ namespace GraphQL.Data
             }
         }
     }
-
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\practice\\GraphQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\migrations\\20240723202813_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\migrations\\20240723202813_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\migrations\\20240726085535_add-nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\migrations\\20240726085535_add-nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\migrations\\20240723202813_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\migrations\\20240723202813_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\migrations\\20240726085535_add-nodes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\migrations\\20240726085535_add-nodes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240723202813_Init.Designer.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240723202813_Init.Designer.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Migrations\\20240723202813_Init.Designer.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240723202813_Init.Designer.cs",
+              "RelativeToolTip": "GraphQL\\Migrations\\20240723202813_Init.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:13:28.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240726085535_Add-Nodes.Designer.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240726085535_Add-Nodes.Designer.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Migrations\\20240726085535_Add-Nodes.Designer.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240726085535_Add-Nodes.Designer.cs",
+              "RelativeToolTip": "GraphQL\\Migrations\\20240726085535_Add-Nodes.Designer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:13:09.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240726085535_Add-Nodes.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240726085535_Add-Nodes.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Migrations\\20240726085535_Add-Nodes.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240726085535_Add-Nodes.cs",
+              "RelativeToolTip": "GraphQL\\Migrations\\20240726085535_Add-Nodes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T09:11:27.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Program.cs",
-              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
-              "RelativeToolTip": "GraphQL\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "20240723202813_Init.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240723202813_Init.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Migrations\\20240723202813_Init.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Migrations\\20240723202813_Init.cs",
+              "RelativeToolTip": "GraphQL\\Migrations\\20240723202813_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T12:43:06.895Z",
+              "WhenOpened": "2024-07-26T09:10:21.564Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

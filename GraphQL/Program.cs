@@ -4,17 +4,19 @@ using GraphQL.Data;
 using GraphQL.Model;
 using GraphQL.Data.GraphQL.Data;
 using GraphQL.Data.Repository;
+using GraphQL.Addition;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Добавление служб в контейнер
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
 
 // Настройка конфигурации
 IConfiguration config = new ConfigurationBuilder()
     .AddJsonFile("./config.json")
     .Build();
+
+// Добавление служб в контейнер
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSingleton<HttpClient>()
     .AddSingleton(config)
@@ -26,12 +28,12 @@ builder.Services.AddSingleton<HttpClient>()
 // Настройка GraphQL
 builder.Services
     .AddGraphQLServer()
+    .AddErrorFilter<OurErrorFilter>()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>();
 
 var app = builder.Build();
 
-//// Инициализация данных
 //DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
 //await dataLoader.LoadDataAsync();
 

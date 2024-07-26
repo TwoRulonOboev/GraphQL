@@ -5,6 +5,7 @@ public class MyDbContext : DbContext
 {
     public DbSet<Album> Albums { get; set; }
     public DbSet<Photo> Photos { get; set; }
+    public DbSet<Node> Nodes { get; set; }
 
     private readonly string? _connectionString;
 

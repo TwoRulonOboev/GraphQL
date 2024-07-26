@@ -12,6 +12,6 @@ namespace GraphQL.Model
         public string Url { get; set; } = null!;
         public string ThumbnailUrl { get; set; } = null!;
 
-        public virtual Album Album { get; set; } = null!;
+        public virtual Album? Album { get; set; }
     }
 }

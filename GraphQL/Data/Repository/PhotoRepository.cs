@@ -1,6 +1,5 @@
 ﻿using GraphQL.Model;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace GraphQL.Data.Repository
 {
@@ -148,11 +147,10 @@ namespace GraphQL.Data.Repository
 
                 if (temp == null) return;
 
-                temp.AlbumId = entity.AlbumId;
-                temp.Title = entity.Title;
-                temp.Url = entity.Url;
-                temp.ThumbnailUrl = entity.ThumbnailUrl;
-                temp.Album = entity.Album;
+                temp.AlbumId        = entity.AlbumId;
+                temp.Title          = entity.Title;
+                temp.Url            = entity.Url;
+                temp.ThumbnailUrl   = entity.ThumbnailUrl;
 
                 context.SaveChanges();
             }
@@ -166,11 +164,10 @@ namespace GraphQL.Data.Repository
 
                 if (temp == null) return;
 
-                temp.AlbumId = entity.AlbumId;
-                temp.Title = entity.Title;
-                temp.Url = entity.Url;
-                temp.ThumbnailUrl = entity.ThumbnailUrl;
-                temp.Album = entity.Album;
+                temp.AlbumId        = entity.AlbumId;
+                temp.Title          = entity.Title;
+                temp.Url            = entity.Url;
+                temp.ThumbnailUrl   = entity.ThumbnailUrl;
 
                 await context.SaveChangesAsync();
             }

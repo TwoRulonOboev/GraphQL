@@ -14,12 +14,12 @@ namespace GraphQL.Data
             _photoRepository = photoRepository;
         }
 
-        public List<Album> GetAlbums() => _albumRepository.Get();
+        public async Task<List<Album>> GetAlbumsAsync() => await _albumRepository.GetAsync();
 
-        public Album GetAlbum(int id) => _albumRepository.Get(id);
+        public async Task<Album> GetAlbum(int id) => await _albumRepository.GetAsync(id);
 
-        public List<Photo> GetPhotos() => _photoRepository.Get();
+        public async Task<List<Photo>> GetPhotos() => await _photoRepository.GetAsync();
 
-        public Photo GetPhoto(int id) => _photoRepository.Get(id);
+        public async Task<Photo> GetPhoto(int id) => await _photoRepository.GetAsync(id);
     }
 }
