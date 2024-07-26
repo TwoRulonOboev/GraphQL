@@ -15,12 +15,8 @@ public class MyDbContext : DbContext
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseNpgsql(_connectionString);
-    }
+        => optionsBuilder.UseNpgsql(_connectionString);
 
     public void EnsureDatabaseCreated()
-    {
-        Database.EnsureCreated();
-    }
+        => Database.EnsureCreated();
 }

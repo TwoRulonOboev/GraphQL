@@ -5,7 +5,6 @@ using GraphQL.Model;
 using GraphQL.Data.GraphQL.Data;
 using GraphQL.Data.Repository;
 using GraphQL.Addition;
-using Microsoft.EntityFrameworkCore.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,8 +26,6 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<ITreeManager, TreeManager>()
     .AddTransient<DataLoader>();
 
-builder.Services.AddDbContext<MyDbContext>();
-
 // Настройка GraphQL
 builder.Services
     .AddGraphQLServer()
@@ -38,20 +35,12 @@ builder.Services
 
 var app = builder.Build();
 
-DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
-await dataLoader.LoadDataAsync();
-
-// Обеспечение создания базы данных при запуске
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<MyDbContext>();
-    dbContext.EnsureDatabaseCreated();
-}
-
-IRepository<Node> nodeRepository = app.Services.GetService<IRepository<Node>>()!;
+//DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
+//await dataLoader.LoadDataAsync();
 
 
-Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(1);
+// Проверка Мудрого дуба
+//Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(1);
 
 
 app.UseHttpsRedirection();

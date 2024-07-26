@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\treemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\treemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "GraphQL\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T12:44:19.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TreeManager.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\TreeManager.cs",
               "RelativeDocumentMoniker": "GraphQL\\Data\\TreeManager.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "GraphQL\\Data\\TreeManager.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:16:35.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:16:35.033Z"
             },
             {
               "$type": "Document",
@@ -49,14 +65,14 @@
               "RelativeDocumentMoniker": "GraphQL\\Program.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
               "RelativeToolTip": "GraphQL\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAABBAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T11:43:20.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NodeRepository.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Repository\\NodeRepository.cs",
               "RelativeDocumentMoniker": "GraphQL\\Data\\Repository\\NodeRepository.cs",
@@ -64,8 +80,7 @@
               "RelativeToolTip": "GraphQL\\Data\\Repository\\NodeRepository.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAIwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T11:44:10.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T11:44:10.515Z"
             }
           ]
         }
