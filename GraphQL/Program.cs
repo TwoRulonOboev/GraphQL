@@ -5,6 +5,7 @@ using GraphQL.Model;
 using GraphQL.Data.GraphQL.Data;
 using GraphQL.Data.Repository;
 using GraphQL.Addition;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<IDbContextFactory, DbContextFactory>()
     .AddTransient<IRepository<Album>, AlbumRepository>()
     .AddTransient<IRepository<Photo>, PhotoRepository>()
+    .AddTransient<IRepository<Node>, NodeRepository>()
+    .AddTransient<ITreeManager, TreeManager>()
     .AddTransient<DataLoader>();
 
 // Настройка GraphQL
@@ -36,6 +39,12 @@ var app = builder.Build();
 
 //DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
 //await dataLoader.LoadDataAsync();
+
+IRepository<Node> nodeRepository = app.Services.GetService<IRepository<Node>>()!;
+
+
+Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(1);
+
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
