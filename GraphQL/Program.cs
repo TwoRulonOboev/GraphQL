@@ -8,7 +8,6 @@ using GraphQL.Addition;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 // Настройка конфигурации
 IConfiguration config = new ConfigurationBuilder()
     .AddJsonFile("./config.json")
@@ -25,6 +24,8 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<IRepository<Photo>, PhotoRepository>()
     .AddTransient<DataLoader>();
 
+builder.Services.AddDbContext<MyDbContext>();
+
 // Настройка GraphQL
 builder.Services
     .AddGraphQLServer()
@@ -34,8 +35,15 @@ builder.Services
 
 var app = builder.Build();
 
-//DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
-//await dataLoader.LoadDataAsync();
+DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
+await dataLoader.LoadDataAsync();
+
+// Обеспечение создания базы данных при запуске
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MyDbContext>();
+    dbContext.EnsureDatabaseCreated();
+}
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

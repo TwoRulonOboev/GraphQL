@@ -10,8 +10,17 @@ public class MyDbContext : DbContext
     private readonly string? _connectionString;
 
     public MyDbContext(IConfiguration config)
-        => _connectionString = config["PostgresConnectionString"];
+    {
+        _connectionString = config["PostgresConnectionString"];
+    }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
-        => optionsBuilder.UseNpgsql(_connectionString);
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseNpgsql(_connectionString);
+    }
+
+    public void EnsureDatabaseCreated()
+    {
+        Database.EnsureCreated();
+    }
 }
