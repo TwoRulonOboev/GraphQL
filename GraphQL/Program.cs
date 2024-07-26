@@ -40,7 +40,7 @@ var app = builder.Build();
 
 
 //Проверка Мудрого дуба
-Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(2);
+Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(1);
 
 
 app.UseHttpsRedirection();
