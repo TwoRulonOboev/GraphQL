@@ -25,6 +25,11 @@ namespace GraphQL.Data
         public async Task<Photo> GetPhoto(int id) => await _photoRepository.GetAsync(id);
 
 
-        public async Task<Node> GetTree(int id) => await _treeManager.GetRootOfTreeAsync(id);
+        public async Task<List<Node>> GetTree(int id)
+        {
+            Node root = await _treeManager.GetRootOfTreeAsync(id);
+
+            return _treeManager.ToList(root);
+        }
     }
 }

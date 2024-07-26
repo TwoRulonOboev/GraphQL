@@ -7,6 +7,7 @@ namespace GraphQL.Data
     {
         Node GetRootOfTree(int id);
         Task<Node> GetRootOfTreeAsync(int id);
+        List<Node> ToList(Node root);
     }
 
     public class TreeManager : ITreeManager
@@ -20,7 +21,7 @@ namespace GraphQL.Data
         {
             Node root = _nodeRepository.Get(id);
 
-            if (root.ParentId != null) throw new Exception("Узел не является коренным");
+            if (!IsRoot(root)) throw new Exception("Узел не является коренным");
 
             SetChildren(root);
             return root;
@@ -41,7 +42,7 @@ namespace GraphQL.Data
         {
             Node root = _nodeRepository.Get(id);
 
-            if (root.ParentId != null) throw new Exception("Узел не является коренным");
+            if (!IsRoot(root)) throw new Exception("Узел не является коренным");
 
             await SetChildrenAsync(root);
             return root;
@@ -57,5 +58,22 @@ namespace GraphQL.Data
                 await SetChildrenAsync(node);
             }
         }
+
+        public List<Node> ToList(Node root)
+        {
+            List<Node> resultList = new List<Node>();
+
+            if(IsRoot(root)) resultList.Add(root);
+            resultList.AddRange(root.Children);
+
+            foreach(Node node in root.Children)
+            {
+                resultList.AddRange(ToList(node));
+            }
+
+            return resultList;
+        }
+
+        public bool IsRoot(Node node) => node == null ? true : false;
     }
 }
