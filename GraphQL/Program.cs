@@ -39,8 +39,8 @@ var app = builder.Build();
 //await dataLoader.LoadDataAsync();
 
 
-// Проверка Мудрого дуба
-//Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(1);
+//Проверка Мудрого дуба
+Node root = app.Services.GetService<ITreeManager>()!.GetRootOfTree(2);
 
 
 app.UseHttpsRedirection();

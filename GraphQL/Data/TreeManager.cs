@@ -20,8 +20,9 @@ namespace GraphQL.Data
         {
             Node root = _nodeRepository.Get(id);
 
-            SetChildren(root);
+            if (root.ParentId != null) throw new Exception("Узел не является коренным");
 
+            SetChildren(root);
             return root;
         }
 
@@ -40,8 +41,9 @@ namespace GraphQL.Data
         {
             Node root = _nodeRepository.Get(id);
 
-            await SetChildrenAsync(root);
+            if (root.ParentId != null) throw new Exception("Узел не является коренным");
 
+            await SetChildrenAsync(root);
             return root;
         }
 
