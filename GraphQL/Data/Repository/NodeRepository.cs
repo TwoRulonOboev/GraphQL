@@ -67,7 +67,7 @@ namespace GraphQL.Data.Repository
                 {
                     Id          = p.Id,
                     ParentId    = p.ParentId,
-                    Name        = p.Name,
+                    Data        = p.Data,
                     Index       = p.Index,
 
                     Children    = p.Children,
@@ -84,7 +84,7 @@ namespace GraphQL.Data.Repository
                 {
                     Id          = p.Id,
                     ParentId    = p.ParentId,
-                    Name        = p.Name,
+                    Data        = p.Data,
                     Index       = p.Index,
 
                     Children    = p.Children,
@@ -101,7 +101,7 @@ namespace GraphQL.Data.Repository
                 {
                     Id          = p.Id,
                     ParentId    = p.ParentId,
-                    Name        = p.Name,
+                    Data        = p.Data,
                     Index       = p.Index,
 
                     Children    = p.Children,
@@ -118,7 +118,7 @@ namespace GraphQL.Data.Repository
                 {
                     Id          = p.Id,
                     ParentId    = p.ParentId,
-                    Name        = p.Name,
+                    Data        = p.Data,
                     Index       = p.Index,
 
                     Children    = p.Children,
@@ -135,7 +135,7 @@ namespace GraphQL.Data.Repository
                 {
                     Id          = p.Id,
                     ParentId    = p.ParentId,
-                    Name        = p.Name,
+                    Data        = p.Data,
                     Index       = p.Index,
 
                     Children    = p.Children,
@@ -153,7 +153,7 @@ namespace GraphQL.Data.Repository
                 if (temp == null) return;
 
                 temp.ParentId   = node.ParentId;
-                temp.Name       = node.Name;
+                temp.Data       = node.Data;
                 temp.Index      = node.Index;
 
                 context.SaveChanges();
@@ -169,7 +169,7 @@ namespace GraphQL.Data.Repository
                 if (temp == null) return;
 
                 temp.ParentId   = node.ParentId;
-                temp.Name       = node.Name;
+                temp.Data       = node.Data;
                 temp.Index      = node.Index;
 
                 await context.SaveChangesAsync();

@@ -24,7 +24,7 @@ builder.Services.AddSingleton<HttpClient>()
     .AddTransient<IRepository<Photo>, PhotoRepository>()
     .AddTransient<IRepository<Node>, NodeRepository>()
     .AddTransient<ITreeManager, TreeManager>()
-    .AddTransient<DataLoader>();
+    .AddTransient<IDataLoader, DataLoader>();
 
 // Настройка GraphQL
 builder.Services
@@ -34,18 +34,6 @@ builder.Services
     .AddMutationType<Mutation>();
 
 var app = builder.Build();
-
-//DataLoader dataLoader = app.Services.GetService<DataLoader>()!;
-//await dataLoader.LoadDataAsync();
-
-
-//Проверка Мудрого дуба
-
-//ITreeManager treeManager = app.Services.GetService<ITreeManager>()!;
-
-//Node root = treeManager.GetRootOfTree(1);
-
-//List<Node> nodes = treeManager.ToList(root);
 
 app.UseHttpsRedirection();
 app.UseAuthorization();

@@ -1,7 +1,13 @@
 ﻿using GraphQL.Data.Repository;
 using GraphQL.Model;
 
-class DataLoader
+public interface IDataLoader
+{
+    Task LoadDataAsync();
+    Task<string> GetStringAsync(string url);
+}
+
+class DataLoader : IDataLoader
 {
     private readonly IConfiguration _config;
     private readonly HttpClient _client;
@@ -25,4 +31,7 @@ class DataLoader
         if(albums != null) await AlbumsRepository.AddAsync(albums);
         if(photos != null) await PhotosRepository.AddAsync(photos);
     }
+
+    public async Task<string> GetStringAsync(string url)
+        => await _client.GetStringAsync(url);
 }

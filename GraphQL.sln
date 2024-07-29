@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL", "GraphQL\GraphQL.csproj", "{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL", "GraphQL\GraphQL.csproj", "{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checker", "checker\checker.csproj", "{83D0A285-8A49-4E40-A240-6B04F8B03072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D0A285-8A49-4E40-A240-6B04F8B03072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D0A285-8A49-4E40-A240-6B04F8B03072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D0A285-8A49-4E40-A240-6B04F8B03072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D0A285-8A49-4E40-A240-6B04F8B03072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

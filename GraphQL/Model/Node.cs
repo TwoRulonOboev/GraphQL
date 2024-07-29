@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public int? ParentId { get; set; }
-        public string Name { get; set; } = null!;
+        public string Data { get; set; } = null!;
         public int Index { get; set; }
 
         public List<Node> Children { get; set;} = new List<Node>();

@@ -74,6 +74,6 @@ namespace GraphQL.Data
             return resultList;
         }
 
-        public bool IsRoot(Node node) => node == null ? true : false;
+        public bool IsRoot(Node node) => node.ParentId == null ? true : false;
     }
 }
