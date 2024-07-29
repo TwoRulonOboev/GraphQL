@@ -1,0 +1,7 @@
+.vs
+GraphQL/obj
+*.cache
+*.vsidx
+*.dgspec.json
+*.g.props
+project.assets.json
