@@ -1,6 +1,5 @@
+# Исключаем папку .vs
 .vs/
-*.vsidx
+
+# Исключаем папку obj
 obj/
-bin/
-project.assets.json
-project.nuget.cache
