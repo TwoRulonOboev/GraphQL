@@ -1,5 +1,5 @@
 # Исключаем папку .vs
-.vs/
+GraphQL/.vs/
 
 # Исключаем папку obj
-obj/
+GraphQL/obj/
