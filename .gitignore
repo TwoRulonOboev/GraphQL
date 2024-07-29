@@ -1,7 +1,6 @@
-.vs
-GraphQL/obj
-*.cache
+.vs/
 *.vsidx
-*.dgspec.json
-*.g.props
+obj/
+bin/
 project.assets.json
+project.nuget.cache
