@@ -13,17 +13,15 @@ namespace GraphQL.Model.ExtendObjects
         }
 
         [BindMember(nameof(Node.Data))]
-        public async Task<Metadata> GetData([Parent] Node node)
+        public async Task<JsonElement> GetData([Parent] Node node)
         {
             Regex regex = new Regex("^http[s]?://.+[.].+", RegexOptions.IgnoreCase);
 
-            if (!regex.IsMatch(node.Data)) return new Metadata("sd", JsonDocument.Parse($"\"{node.Data}\"").RootElement);
+            if (!regex.IsMatch(node.Data)) return JsonDocument.Parse($"\"{node.Data}\"").RootElement;
 
             string json = await _dataLoader.GetStringAsync(node.Data);
 
-            return new Metadata("value", JsonDocument.Parse(json).RootElement);
+            return JsonDocument.Parse(json).RootElement;
         }
     }
-
-    public record Metadata(string key, JsonElement value);
 }

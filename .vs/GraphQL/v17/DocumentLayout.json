@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,8 +34,7 @@
               "RelativeToolTip": "GraphQL\\Pars\\DataLoader.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAwwCMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T11:37:42.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T11:37:42.98Z"
             },
             {
               "$type": "Document",
@@ -51,8 +46,7 @@
               "RelativeToolTip": "GraphQL\\Data\\Query.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAA9wCMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:37:37.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T09:37:37.434Z"
             },
             {
               "$type": "Document",
@@ -62,7 +56,7 @@
               "RelativeDocumentMoniker": "GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
               "RelativeToolTip": "GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAABRAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T09:13:05.074Z",
               "EditorCaption": ""
