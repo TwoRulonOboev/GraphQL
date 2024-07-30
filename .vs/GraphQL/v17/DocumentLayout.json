@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\practice\\GraphQL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\model\\extendobjects\\nodeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\model\\extendobjects\\nodeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\data\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\data\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\pars\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|d:\\practice\\graphql\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7BB66DC-E7A3-474E-B606-49ACE1F9F357}|GraphQL\\GraphQL.csproj|solutionrelative:graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DataLoader.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
               "RelativeDocumentMoniker": "GraphQL\\Pars\\DataLoader.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Pars\\DataLoader.cs",
               "RelativeToolTip": "GraphQL\\Pars\\DataLoader.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAADgvyMAAAAtAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwCMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:14:12.39Z",
+              "WhenOpened": "2024-07-30T11:37:42.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
-              "RelativeDocumentMoniker": "GraphQL\\Program.cs",
-              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Program.cs",
-              "RelativeToolTip": "GraphQL\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:01:28.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Query.cs",
               "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Data\\Query.cs",
               "RelativeDocumentMoniker": "GraphQL\\Data\\Query.cs",
               "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Data\\Query.cs",
               "RelativeToolTip": "GraphQL\\Data\\Query.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwCwAAAA0AAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wCMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T09:37:37.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NodeExtensions.cs",
+              "DocumentMoniker": "D:\\practice\\GraphQL\\GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
+              "ToolTip": "D:\\practice\\GraphQL\\GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
+              "RelativeToolTip": "GraphQL\\Model\\ExtendObjects\\NodeExtensions.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:13:05.074Z",
               "EditorCaption": ""
             }
           ]

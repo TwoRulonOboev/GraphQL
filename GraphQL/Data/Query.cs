@@ -33,20 +33,20 @@ namespace GraphQL.Data
             Node root = await _treeManager.GetRootOfTreeAsync(id);
             List<Node> nodes = _treeManager.ToList(root);
 
-            Regex regex = new Regex("^http(s)?://.+[.].+");
+            //Regex regex = new Regex("^http[s]?://.+[.].+");
 
-            for (int i = 0; i < nodes.Count-1; i++)
-            {
-                if (!regex.IsMatch(nodes[i].Data)) continue;
+            //for (int i = 0; i < nodes.Count-1; i++)
+            //{
+            //    if (!regex.IsMatch(nodes[i].Data)) continue;
 
-                nodes[i] = new Node
-                {
-                    Id          = nodes[i].Id,
-                    ParentId    = nodes[i].ParentId,
-                    Data        = await _dataLoader.GetStringAsync(nodes[i].Data),
-                    Index       = nodes[i].Index
-                };
-            }
+            //    nodes[i] = new Node
+            //    {
+            //        Id          = nodes[i].Id,
+            //        ParentId    = nodes[i].ParentId,
+            //        Data        = await _dataLoader.GetStringAsync(nodes[i].Data),
+            //        Index       = nodes[i].Index
+            //    };
+            //}
 
             return nodes;
         }

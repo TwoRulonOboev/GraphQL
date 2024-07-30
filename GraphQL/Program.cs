@@ -5,6 +5,7 @@ using GraphQL.Model;
 using GraphQL.Data.GraphQL.Data;
 using GraphQL.Data.Repository;
 using GraphQL.Addition;
+using GraphQL.Model.ExtendObjects;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,7 @@ builder.Services.AddSingleton<HttpClient>()
 // Настройка GraphQL
 builder.Services
     .AddGraphQLServer()
+    .AddTypeExtension<NodeExtensions>()
     .AddErrorFilter<OurErrorFilter>()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>();
